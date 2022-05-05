@@ -37,11 +37,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2487450152026358994, guid: 9429f3bb46b9f874f828d323716f15b5, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 65
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 2487450152026358994, guid: 9429f3bb46b9f874f828d323716f15b5, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 65
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 2487450152026358994, guid: 9429f3bb46b9f874f828d323716f15b5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -93,7 +93,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2487450152026359005, guid: 9429f3bb46b9f874f828d323716f15b5, type: 3}
       propertyPath: m_Name
-      value: Image
+      value: Green Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7223860967775627592, guid: 9429f3bb46b9f874f828d323716f15b5, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: ead66e1014454ae42a8a40fabdf8e03f, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9429f3bb46b9f874f828d323716f15b5, type: 3}

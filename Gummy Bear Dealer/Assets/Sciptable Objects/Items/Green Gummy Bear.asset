@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8db4c3d3ee588774aa3feef1cbb386a0, type: 3}
-  m_Name: Glock
+  m_Script: {fileID: 11500000, guid: 9b49d925346a46a42ab94c04c2e816f2, type: 3}
+  m_Name: Green Gummy Bear
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
-  type: 1
-  description: Basic pistol.Does a small amount of damage
-  atkBonus: 5
-  defenceBonus: 0
+  prefab: {fileID: 6347828578171221415, guid: 32cf7b06c6036a14fbaf3026054cfc96, type: 3}
+  type: 2
+  description: Common Gummy Bear

@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b49d925346a46a42ab94c04c2e816f2, type: 3}
-  m_Name: Gray Gummy Bear
+  m_Name: Golden Gummy Bear
   m_EditorClassIdentifier: 
-  prefab: {fileID: 2487450152026359005, guid: 9429f3bb46b9f874f828d323716f15b5, type: 3}
+  prefab: {fileID: 6000638570359957898, guid: 5c94c0bb67dcb4b419ca2925b2c27b7b, type: 3}
   type: 2
-  description: The cheapest bear of all gummy bears
+  description: Legendary Gummy Bear
