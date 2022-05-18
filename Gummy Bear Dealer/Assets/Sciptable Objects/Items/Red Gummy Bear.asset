@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b49d925346a46a42ab94c04c2e816f2, type: 3}
   m_Name: Red Gummy Bear
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3294865649858179190, guid: e7a05f74b8e861740bdc1badb9ba4a60, type: 3}
+  prefab: {fileID: 5539294931148126011, guid: 8c98146bfa465c9449a11dcffc8857f8, type: 3}
   type: 2
   description: Epic Gummy Bear

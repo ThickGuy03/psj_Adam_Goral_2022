@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b49d925346a46a42ab94c04c2e816f2, type: 3}
   m_Name: Gray Gummy Bear
   m_EditorClassIdentifier: 
-  prefab: {fileID: 2487450152026359005, guid: 9429f3bb46b9f874f828d323716f15b5, type: 3}
+  prefab: {fileID: 6438170532710019483, guid: 92e76e02d1b294040b0e84d1da1876a7, type: 3}
   type: 2
   description: The cheapest bear of all gummy bears

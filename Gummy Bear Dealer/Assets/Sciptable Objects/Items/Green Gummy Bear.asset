@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b49d925346a46a42ab94c04c2e816f2, type: 3}
   m_Name: Green Gummy Bear
   m_EditorClassIdentifier: 
-  prefab: {fileID: 6347828578171221415, guid: 32cf7b06c6036a14fbaf3026054cfc96, type: 3}
+  prefab: {fileID: 4523647813051336899, guid: 1d41c1755bd787549ba02cb2567fe74b, type: 3}
   type: 2
   description: Common Gummy Bear

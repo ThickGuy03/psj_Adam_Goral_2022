@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b49d925346a46a42ab94c04c2e816f2, type: 3}
   m_Name: Blue Gummy Bear
   m_EditorClassIdentifier: 
-  prefab: {fileID: 7794833842810596519, guid: 579c359636ab27e469856460f341ee28, type: 3}
+  prefab: {fileID: 1524462673266270353, guid: a102efe637f22bb42a9f87e3bbd3413f, type: 3}
   type: 2
   description: Rare Gummy Bear
