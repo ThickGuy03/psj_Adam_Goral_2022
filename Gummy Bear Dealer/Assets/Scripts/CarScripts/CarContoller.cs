@@ -28,7 +28,7 @@ public class CarContoller : MonoBehaviour
     [SerializeField] private Transform backleftwheelTransform;
     [SerializeField] private Transform backrightwheelTransform;
 
-    private void FixedUpdate()
+    private void Update()
     {
       GetInput();
       HandleMotor();
@@ -37,8 +37,8 @@ public class CarContoller : MonoBehaviour
     }
     private void HandleMotor()
     {
-        frontleftwheelColider.motorTorque = VerticalInput * motorForce;
-        frontrightwheelColider.motorTorque = VerticalInput * motorForce;
+        frontleftwheelColider.motorTorque = VerticalInput * (motorForce*1000000);
+        frontrightwheelColider.motorTorque = VerticalInput * (motorForce * 1000000);
         currentbreakForce = isBreaking ? breakForce : 0f;
         if(isBreaking)
         {
@@ -57,7 +57,6 @@ public class CarContoller : MonoBehaviour
         HorizontalInput = Input.GetAxis(HORIZONTAL);
         VerticalInput = Input.GetAxis(VERTICAL);
         isBreaking = Input.GetKey(KeyCode.Space);
-
     }
     private void HandleSteering()
     {
