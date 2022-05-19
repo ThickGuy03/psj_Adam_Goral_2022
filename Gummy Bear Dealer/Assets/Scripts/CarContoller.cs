@@ -30,22 +30,17 @@ public class CarContoller : MonoBehaviour
 
     private void FixedUpdate()
     {
-      
-      
-            GetInput();
-            HandleMotor();
-            HandleSteering();
-            UpdateWheels();
-        
-
-        
+      GetInput();
+      HandleMotor();
+      HandleSteering();
+      UpdateWheels();
     }
     private void HandleMotor()
     {
         frontleftwheelColider.motorTorque = VerticalInput * motorForce;
         frontrightwheelColider.motorTorque = VerticalInput * motorForce;
         currentbreakForce = isBreaking ? breakForce : 0f;
-        while(isBreaking)
+        if(isBreaking)
         {
             ApplyBreaking();
         }

@@ -6,7 +6,8 @@ public class playerMovement : MonoBehaviour
 {
     public CharacterController controller;
     public float speed = 12f;
-
+    public float sprint = 20f;
+    private float realSpeed;
     Vector3 velocity;
     public float gravity = -9.81f;
 
@@ -19,7 +20,7 @@ public class playerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -36,7 +37,8 @@ public class playerMovement : MonoBehaviour
 
         Vector3 move = transform.right * x + transform.forward * z;
 
-        controller.Move(move*speed*Time.deltaTime);
+        realSpeed = Input.GetKey(KeyCode.LeftShift) ? sprint : speed;
+        controller.Move(move*realSpeed*Time.deltaTime);
 
         if(Input.GetButtonDown("Jump")&&isGrounded)
         {
@@ -45,10 +47,9 @@ public class playerMovement : MonoBehaviour
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity*Time.deltaTime);
-        while(Input.GetKey(KeyCode.LeftShift))
-        {
-            speed = 20f;
-        }
-       
+    }
+    private void FixedUpdate()
+    {
+        transform.Translate(realSpeed * Input.GetAxis("Horizontal") * Time.deltaTime, 0f, realSpeed * Input.GetAxis("Vertical") * Time.deltaTime);
     }
 }
