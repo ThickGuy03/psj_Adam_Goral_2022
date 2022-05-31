@@ -28,21 +28,31 @@ public class CarContoller : MonoBehaviour
     [SerializeField] private Transform backleftwheelTransform;
     [SerializeField] private Transform backrightwheelTransform;
 
-    private void Update()
+    private void FixedUpdate()
     {
       GetInput();
       HandleMotor();
       HandleSteering();
       UpdateWheels();
     }
+    private void GetInput()
+    {
+        HorizontalInput = Input.GetAxis(HORIZONTAL);
+        VerticalInput = Input.GetAxis(VERTICAL);
+        isBreaking = Input.GetKey(KeyCode.Space);
+    }
     private void HandleMotor()
     {
-        frontleftwheelColider.motorTorque = VerticalInput * (motorForce*1000000);
-        frontrightwheelColider.motorTorque = VerticalInput * (motorForce * 1000000);
+        frontleftwheelColider.motorTorque = VerticalInput * (motorForce);
+        frontrightwheelColider.motorTorque = VerticalInput * (motorForce);
         currentbreakForce = isBreaking ? breakForce : 0f;
-        if(isBreaking)
+        if (isBreaking)
         {
-            ApplyBreaking();
+            ApplyBreaking();   
+        }
+        else
+        {
+            frontrightwheelColider.brakeTorque = frontleftwheelColider.brakeTorque = backrightwheelColider.brakeTorque = backleftwheelColider.brakeTorque = 0f;
         }
     }
     private void ApplyBreaking()
@@ -52,12 +62,7 @@ public class CarContoller : MonoBehaviour
         backleftwheelColider.brakeTorque = currentbreakForce;
         backrightwheelColider.brakeTorque = currentbreakForce;
     }
-    private void GetInput()
-    {
-        HorizontalInput = Input.GetAxis(HORIZONTAL);
-        VerticalInput = Input.GetAxis(VERTICAL);
-        isBreaking = Input.GetKey(KeyCode.Space);
-    }
+
     private void HandleSteering()
     {
         currentsteerAngle = maxSteerAngle * HorizontalInput;
