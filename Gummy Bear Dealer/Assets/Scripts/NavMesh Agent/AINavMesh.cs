@@ -6,6 +6,7 @@ using UnityEngine.AI;
 
 public class AINavMesh : MonoBehaviour
 {
+    public GameObject agent;
     public Transform[] points;
     private int destPoints=0;
     private NavMeshAgent navMeshAgent;
@@ -19,6 +20,12 @@ public class AINavMesh : MonoBehaviour
 
     void GoToNextPosition()
     {
+       if(destPoints==points.Length)
+        {
+            Destroy(agent,0.2f);
+            Debug.Log("destroyed");
+            return;
+        }
        if(points.Length==0)
        {
             return;
@@ -26,7 +33,7 @@ public class AINavMesh : MonoBehaviour
 
         navMeshAgent.destination = points[destPoints].position;
 
-        destPoints = (destPoints + 1) % points.Length;
+        destPoints++;
     }
 
     private void Update()
@@ -35,5 +42,8 @@ public class AINavMesh : MonoBehaviour
         {
             GoToNextPosition();
         }
+        
+           
+       
     }
 }
