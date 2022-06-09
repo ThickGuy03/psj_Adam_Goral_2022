@@ -9,6 +9,7 @@ public class ExitCar : MonoBehaviour
     public GameObject ExitTrigger;
     public GameObject TheCar;
     public GameObject ExitPlace;
+    public GameObject Waypoint;
 
     private void Update()
     {
@@ -19,6 +20,7 @@ public class ExitCar : MonoBehaviour
             CarCamera.SetActive(false);
             TheCar.GetComponent<CarContoller>().enabled = false;
             ExitTrigger.SetActive(false);
+            Waypoint.SetActive(true);
         }
     }
 }

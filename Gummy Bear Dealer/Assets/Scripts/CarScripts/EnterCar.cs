@@ -9,6 +9,7 @@ public class EnterCar : MonoBehaviour
     public GameObject ExitTrigger;
     public GameObject TheCar;
     public int TriggerCheck;
+    public GameObject Waypoint;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -28,6 +29,7 @@ public class EnterCar : MonoBehaviour
                 Player.SetActive(false);
                 TheCar.GetComponent<CarContoller>().enabled=true;
                 ExitTrigger.SetActive(true);
+                Waypoint.SetActive(false);
             }
         }
     }

@@ -109,8 +109,8 @@ NavMeshSettings:
     agentRadius: 0.5
     agentHeight: 2
     agentSlope: 50.3
-    agentClimb: 0.5
-    ledgeDropHeight: 4
+    agentClimb: 1
+    ledgeDropHeight: 2
     maxJumpAcrossDistance: 2
     minRegionArea: 3
     manualCellSize: 1
@@ -196,7 +196,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &1435461
 MonoBehaviour:
@@ -224,6 +224,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -304,6 +308,10 @@ PrefabInstance:
       value: Freeway Straight 2 (66)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -382,6 +390,10 @@ PrefabInstance:
       value: Freeway Straight 2 (42)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -458,6 +470,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -632,6 +648,10 @@ PrefabInstance:
       value: Highway Bridge 2 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 172256, guid: 25e5c01865542e449bf00fcc40da6a11, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 172256, guid: 25e5c01865542e449bf00fcc40da6a11, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -703,6 +723,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -784,7 +808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4188882030181844561, guid: b61f0e6f4b1ed3e4094d36e5b883fc9e, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4188882030181844561, guid: b61f0e6f4b1ed3e4094d36e5b883fc9e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -843,6 +867,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1050,6 +1078,10 @@ PrefabInstance:
       value: Freeway Straight 2 (37)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -1126,6 +1158,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1206,6 +1242,10 @@ PrefabInstance:
       value: Freeway Straight 2 (25)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -1282,6 +1322,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1362,6 +1406,10 @@ PrefabInstance:
       value: Freeway Straight 2 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -1440,6 +1488,10 @@ PrefabInstance:
       value: Freeway Straight 2 (111)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -1516,6 +1568,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1630,6 +1686,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1800,6 +1860,10 @@ PrefabInstance:
       value: Freeway Straight 2 (107)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -1912,6 +1976,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2111,6 +2179,10 @@ PrefabInstance:
       value: Freeway Straight 2 (39)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -2225,6 +2297,10 @@ PrefabInstance:
       value: Freeway Straight 2 (65)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -2291,6 +2367,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 494338, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
   m_PrefabInstance: {fileID: 199104566}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &203308002
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 767271949}
+    m_Modifications:
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Name
+      value: Point (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 309.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.323349
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -34.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
 --- !u!1 &204171981
 GameObject:
   m_ObjectHideFlags: 0
@@ -2338,6 +2475,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2406,6 +2547,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 494338, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
   m_PrefabInstance: {fileID: 209959728}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &213985973 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+  m_PrefabInstance: {fileID: 1331267840}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &214708473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2416,6 +2562,10 @@ PrefabInstance:
     - target: {fileID: 143752, guid: 260ff3c3667b2bd4f82382b31d2ef823, type: 3}
       propertyPath: m_Name
       value: Highway Straight 2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 143752, guid: 260ff3c3667b2bd4f82382b31d2ef823, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 143752, guid: 260ff3c3667b2bd4f82382b31d2ef823, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2570,6 +2720,10 @@ PrefabInstance:
     - target: {fileID: 145004, guid: b74054c7819af8a458ae5a11853280ac, type: 3}
       propertyPath: m_Name
       value: Freeway Join Road
+      objectReference: {fileID: 0}
+    - target: {fileID: 145004, guid: b74054c7819af8a458ae5a11853280ac, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 145004, guid: b74054c7819af8a458ae5a11853280ac, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2743,6 +2897,10 @@ PrefabInstance:
       value: Freeway Straight 2 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -2824,6 +2982,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2999,7 +3161,7 @@ Transform:
   - {fileID: 2114472202}
   - {fileID: 1593098851}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &267680002
 PrefabInstance:
@@ -3014,7 +3176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 146197878038311577, guid: cc13537caed3b564e8fa28f21de404d3, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 146197878038311577, guid: cc13537caed3b564e8fa28f21de404d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3022,7 +3184,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 146197878038311577, guid: cc13537caed3b564e8fa28f21de404d3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 221.53812
+      value: 222.03
       objectReference: {fileID: 0}
     - target: {fileID: 146197878038311577, guid: cc13537caed3b564e8fa28f21de404d3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3063,6 +3225,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
   m_PrefabInstance: {fileID: 1007421819}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &283120370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 283120372}
+  - component: {fileID: 283120371}
+  m_Layer: 0
+  m_Name: Spawner 3
+  m_TagString: Spawner
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &283120371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283120370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050145485e4124f499c1768d14e5b98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnPos: {x: -257.15308, y: 221.967, z: -3381.4604}
+  spawnObject:
+  - {fileID: 5641419904960368043, guid: 5ba16549bed7dff42828c6141a8ad9aa, type: 3}
+  destPosition:
+  - {fileID: 1089526115}
+  - {fileID: 679150888}
+  - {fileID: 886527269}
+  - {fileID: 1378970066}
+  - {fileID: 1595704256}
+  - {fileID: 1161632991}
+  - {fileID: 1223603473}
+  - {fileID: 213985973}
+  - {fileID: 873410328}
+  - {fileID: 1039789202}
+--- !u!4 &283120372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283120370}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -304.45, y: 221.88, z: -3392.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &287395619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3073,6 +3292,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3153,6 +3376,10 @@ PrefabInstance:
       value: Freeway Lift Highway
       objectReference: {fileID: 0}
     - target: {fileID: 168972, guid: 401d27194e0344948b125cf0483f7637, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 168972, guid: 401d27194e0344948b125cf0483f7637, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -3229,6 +3456,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3309,6 +3540,10 @@ PrefabInstance:
       value: Freeway Straight 2 (114)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -3375,6 +3610,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 494338, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
   m_PrefabInstance: {fileID: 318132120}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &325045128
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 767271949}
+    m_Modifications:
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Name
+      value: Point (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 216.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.323349
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -125.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
 --- !u!1001 &343609785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3385,6 +3681,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3465,6 +3765,10 @@ PrefabInstance:
       value: Freeway Curve 2 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 150330, guid: d2b4c92a59cf1a441bf008ca26395efa, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 150330, guid: d2b4c92a59cf1a441bf008ca26395efa, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -3541,6 +3845,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3621,6 +3929,10 @@ PrefabInstance:
       value: Freeway Straight 2 (91)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -3699,6 +4011,10 @@ PrefabInstance:
       value: Freeway Straight 2
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -3775,6 +4091,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3931,6 +4251,10 @@ PrefabInstance:
       value: Freeway Join Freeway 2
       objectReference: {fileID: 0}
     - target: {fileID: 164378, guid: 409109bbaa58cf340b5fea204e6aac85, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 164378, guid: 409109bbaa58cf340b5fea204e6aac85, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -4010,7 +4334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 146197878038311577, guid: cc13537caed3b564e8fa28f21de404d3, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 146197878038311577, guid: cc13537caed3b564e8fa28f21de404d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4064,6 +4388,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4144,6 +4472,10 @@ PrefabInstance:
       value: Freeway Straight 2 (74)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -4220,6 +4552,10 @@ PrefabInstance:
     - target: {fileID: 143752, guid: 260ff3c3667b2bd4f82382b31d2ef823, type: 3}
       propertyPath: m_Name
       value: Highway Straight 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 143752, guid: 260ff3c3667b2bd4f82382b31d2ef823, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 143752, guid: 260ff3c3667b2bd4f82382b31d2ef823, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4374,6 +4710,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4533,6 +4873,10 @@ PrefabInstance:
       value: Freeway Straight 2 (43)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -4609,6 +4953,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4939,95 +5287,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 464478880}
   m_CullTransparentMesh: 1
---- !u!1001 &468599531
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2303298347797643441, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2303298347797643441, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -238.24762
-      objectReference: {fileID: 0}
-    - target: {fileID: 2303298347797643441, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 221.98004
-      objectReference: {fileID: 0}
-    - target: {fileID: 2303298347797643441, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3381.2834
-      objectReference: {fileID: 0}
-    - target: {fileID: 2303298347797643441, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2303298347797643441, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2303298347797643441, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2303298347797643441, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2303298347797643441, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2303298347797643441, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2303298347797643441, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2303298347797643452, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: m_Name
-      value: Agent 1 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2303298347797643455, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: points.Array.size
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2303298347797643455, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: points.Array.data[0]
-      value: 
-      objectReference: {fileID: 432506096}
-    - target: {fileID: 2303298347797643455, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: points.Array.data[1]
-      value: 
-      objectReference: {fileID: 188959353}
-    - target: {fileID: 2303298347797643455, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: points.Array.data[2]
-      value: 
-      objectReference: {fileID: 1091843481}
-    - target: {fileID: 2303298347797643455, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: points.Array.data[3]
-      value: 
-      objectReference: {fileID: 948854420}
-    - target: {fileID: 2303298347797643455, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: points.Array.data[4]
-      value: 
-      objectReference: {fileID: 1277282958}
-    - target: {fileID: 2303298347797643455, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: points.Array.data[5]
-      value: 
-      objectReference: {fileID: 616040321}
-    - target: {fileID: 2303298347797643455, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-      propertyPath: points.Array.data[6]
-      value: 
-      objectReference: {fileID: 269723636}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
 --- !u!1001 &469487493
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5038,6 +5297,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5175,6 +5438,10 @@ PrefabInstance:
       value: Freeway Straight 2 (75)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -5251,6 +5518,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5363,6 +5634,10 @@ PrefabInstance:
     - target: {fileID: 143752, guid: 260ff3c3667b2bd4f82382b31d2ef823, type: 3}
       propertyPath: m_Name
       value: Highway Straight 2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 143752, guid: 260ff3c3667b2bd4f82382b31d2ef823, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 143752, guid: 260ff3c3667b2bd4f82382b31d2ef823, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5481,6 +5756,10 @@ PrefabInstance:
       value: Freeway Cross Freeway
       objectReference: {fileID: 0}
     - target: {fileID: 182438, guid: 67b75b5f8253ef64c9aaab70b17ec06e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 182438, guid: 67b75b5f8253ef64c9aaab70b17ec06e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -5547,6 +5826,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 429754, guid: 67b75b5f8253ef64c9aaab70b17ec06e, type: 3}
   m_PrefabInstance: {fileID: 520010694}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &525470138
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 767271949}
+    m_Modifications:
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Name
+      value: Point (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 466.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.323349
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.3066406
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
 --- !u!1001 &526181945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5557,6 +5897,10 @@ PrefabInstance:
     - target: {fileID: 168972, guid: 401d27194e0344948b125cf0483f7637, type: 3}
       propertyPath: m_Name
       value: Freeway Lift Highway (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 168972, guid: 401d27194e0344948b125cf0483f7637, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 168972, guid: 401d27194e0344948b125cf0483f7637, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5637,6 +5981,10 @@ PrefabInstance:
       value: Road Straight 3
       objectReference: {fileID: 0}
     - target: {fileID: 110414, guid: 43678520060fa5e42add8825ab61da06, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110414, guid: 43678520060fa5e42add8825ab61da06, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -5713,6 +6061,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5901,6 +6253,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6175,7 +6531,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8599312683912132661, guid: d589d91ee9d1c574d876b3c329f76c67, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8599312683912132661, guid: d589d91ee9d1c574d876b3c329f76c67, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6233,6 +6589,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (113)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6338,7 +6698,7 @@ RectTransform:
   - {fileID: 795295950}
   - {fileID: 204171982}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6416,6 +6776,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6496,6 +6860,10 @@ PrefabInstance:
       value: Freeway Straight 2 (103)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -6574,6 +6942,10 @@ PrefabInstance:
       value: Freeway Straight 2 (110)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -6645,6 +7017,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
   m_PrefabInstance: {fileID: 190183898}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &616458204
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 767271949}
+    m_Modifications:
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Name
+      value: Point (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 375.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.323349
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -294.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
 --- !u!1001 &624320532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6655,6 +7088,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6872,6 +7309,10 @@ PrefabInstance:
       value: Freeway Straight 2 (97)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -6948,6 +7389,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (68)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7028,6 +7473,10 @@ PrefabInstance:
       value: Freeway Straight 2 (87)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -7093,6 +7542,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 494338, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
   m_PrefabInstance: {fileID: 675661020}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &679150888 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+  m_PrefabInstance: {fileID: 525470138}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &689344711
 GameObject:
@@ -7179,6 +7633,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7344,6 +7802,10 @@ PrefabInstance:
       value: Freeway Straight 2 (20)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -7410,6 +7872,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 494338, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
   m_PrefabInstance: {fileID: 707868250}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &708578593
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 767271949}
+    m_Modifications:
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Name
+      value: Point (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 532.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.323349
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -280.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
 --- !u!1001 &709894009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7420,6 +7943,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7575,6 +8102,10 @@ PrefabInstance:
       value: Freeway Straight 2 (15)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -7722,6 +8253,46 @@ Transform:
   m_Father: {fileID: 2131460162}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &767271948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 767271949}
+  m_Layer: 0
+  m_Name: Path 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &767271949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767271948}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -310.7676, y: 228.41112, z: -3393.3499}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1089526115}
+  - {fileID: 679150888}
+  - {fileID: 886527269}
+  - {fileID: 1378970066}
+  - {fileID: 1595704256}
+  - {fileID: 1161632991}
+  - {fileID: 1223603473}
+  - {fileID: 213985973}
+  - {fileID: 873410328}
+  - {fileID: 1039789202}
+  m_Father: {fileID: 0}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &788928574
 GameObject:
   m_ObjectHideFlags: 0
@@ -7835,6 +8406,7 @@ MonoBehaviour:
   ExitTrigger: {fileID: 935859387}
   TheCar: {fileID: 1266730477}
   TriggerCheck: 0
+  Waypoint: {fileID: 1679263901}
 --- !u!1 &795295949
 GameObject:
   m_ObjectHideFlags: 0
@@ -7963,6 +8535,10 @@ PrefabInstance:
       value: Freeway Straight 2 (61)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -8038,7 +8614,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2653919091114625835, guid: df41d282ba4f0834eb9e5106f9294687, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2653919091114625835, guid: df41d282ba4f0834eb9e5106f9294687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8046,7 +8622,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2653919091114625835, guid: df41d282ba4f0834eb9e5106f9294687, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 221.5381
+      value: 222.33
       objectReference: {fileID: 0}
     - target: {fileID: 2653919091114625835, guid: df41d282ba4f0834eb9e5106f9294687, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8101,6 +8677,10 @@ PrefabInstance:
     - target: {fileID: 145004, guid: b74054c7819af8a458ae5a11853280ac, type: 3}
       propertyPath: m_Name
       value: Freeway Join Road
+      objectReference: {fileID: 0}
+    - target: {fileID: 145004, guid: b74054c7819af8a458ae5a11853280ac, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 145004, guid: b74054c7819af8a458ae5a11853280ac, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8181,7 +8761,7 @@ GameObject:
   - component: {fileID: 856878789}
   m_Layer: 0
   m_Name: Spawner 1
-  m_TagString: Untagged
+  m_TagString: Spawner
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8200,9 +8780,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnPos: {x: -257.15308, y: 221.967, z: -3381.4604}
   spawnObject:
-  - {fileID: 7314980120870123081, guid: b8ececa08a20a70489aeaebf24f48403, type: 3}
   - {fileID: 2303298347797643452, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-  newSpawnDuration: 4
+  - {fileID: 4789383196962472813, guid: 00b0f323bd747934e9d615dbc156eef4, type: 3}
+  - {fileID: 4041749468654053567, guid: f248c7e62991436409f54e8a17daf90a, type: 3}
+  - {fileID: 4168266839238166892, guid: f3ace1d1a491d994589ea083cc29eddd, type: 3}
   destPosition:
   - {fileID: 432506096}
   - {fileID: 188959353}
@@ -8219,7 +8800,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856878788}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -257.15308, y: 221.967, z: -3381.4604}
+  m_LocalPosition: {x: -304.38, y: 221.967, z: -3381.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8358,6 +8939,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+--- !u!4 &873410328 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+  m_PrefabInstance: {fileID: 325045128}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &878218334
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8368,6 +8954,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8436,6 +9026,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 494338, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
   m_PrefabInstance: {fileID: 878218334}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &886527269 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+  m_PrefabInstance: {fileID: 1890395464}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &903310437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8446,6 +9041,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8627,6 +9226,7 @@ MonoBehaviour:
   ExitTrigger: {fileID: 935859387}
   TheCar: {fileID: 1266730477}
   ExitPlace: {fileID: 788928574}
+  Waypoint: {fileID: 1679263901}
 --- !u!4 &935859389
 Transform:
   m_ObjectHideFlags: 0
@@ -8639,7 +9239,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &942034394
 PrefabInstance:
@@ -8651,6 +9251,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8736,6 +9340,10 @@ PrefabInstance:
       value: Freeway Straight 2 (72)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -8812,6 +9420,10 @@ PrefabInstance:
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_Name
       value: Road Straight 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8892,6 +9504,10 @@ PrefabInstance:
       value: Freeway Straight 2 (62)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -8970,6 +9586,10 @@ PrefabInstance:
       value: Road Jump
       objectReference: {fileID: 0}
     - target: {fileID: 174070, guid: d995f875a84ca0f4c952dd644d6dbd0e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 174070, guid: d995f875a84ca0f4c952dd644d6dbd0e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -9041,6 +9661,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9121,6 +9745,10 @@ PrefabInstance:
       value: Freeway Straight 2 (27)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -9197,6 +9825,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9410,6 +10042,10 @@ PrefabInstance:
       value: Freeway Straight 2 (102)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -9486,6 +10122,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9629,6 +10269,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1027707214}
   m_CullTransparentMesh: 1
+--- !u!1001 &1029343271
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 767271949}
+    m_Modifications:
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Name
+      value: Point (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 519.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.323349
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -294.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
 --- !u!1001 &1033548711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9639,6 +10340,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9707,6 +10412,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 494338, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
   m_PrefabInstance: {fileID: 1033548711}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1039789202 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+  m_PrefabInstance: {fileID: 203308002}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1047525621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9717,6 +10427,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9861,6 +10575,67 @@ Transform:
   m_Father: {fileID: 2131460162}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1056766135
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 767271949}
+    m_Modifications:
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Name
+      value: Point (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 303.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.323349
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -235.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
 --- !u!1001 &1058293433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9871,6 +10646,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10014,6 +10793,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066391000}
   m_CullTransparentMesh: 1
+--- !u!4 &1089526115 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+  m_PrefabInstance: {fileID: 1662610020}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1091843481 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
@@ -10029,6 +10813,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10107,6 +10895,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10371,6 +11163,10 @@ PrefabInstance:
       value: Freeway Straight 2 (34)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -10436,6 +11232,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 494338, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
   m_PrefabInstance: {fileID: 1139597047}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1161632991 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+  m_PrefabInstance: {fileID: 616458204}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1163066284
 GameObject:
@@ -10781,7 +11582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4188882030181844561, guid: b61f0e6f4b1ed3e4094d36e5b883fc9e, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4188882030181844561, guid: b61f0e6f4b1ed3e4094d36e5b883fc9e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10789,7 +11590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4188882030181844561, guid: b61f0e6f4b1ed3e4094d36e5b883fc9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 221.53812
+      value: 222.09
       objectReference: {fileID: 0}
     - target: {fileID: 4188882030181844561, guid: b61f0e6f4b1ed3e4094d36e5b883fc9e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10877,7 +11678,7 @@ Transform:
   - {fileID: 96934387}
   - {fileID: 1456568206}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1219548887
 MonoBehaviour:
@@ -10916,6 +11717,11 @@ MonoBehaviour:
   inventory: {fileID: 11400000, guid: e2df5eefbc5537d4bb2bdbd066af8c9d, type: 2}
   inv: {fileID: 24629005}
   quest: {fileID: 204171981}
+--- !u!4 &1223603473 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+  m_PrefabInstance: {fileID: 1056766135}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1229776606
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10926,6 +11732,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11079,6 +11889,10 @@ PrefabInstance:
       value: Freeway Straight 2 (85)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -11216,6 +12030,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (89)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11466,16 +12284,17 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266730477}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -219.26, y: 223.76, z: -3373.98}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -220.5226, y: 223.76, z: -3414.05}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 1972822682}
   - {fileID: 2120262734}
   - {fileID: 788928575}
+  - {fileID: 1679263905}
   m_Father: {fileID: 0}
   m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!4 &1266979155
 Transform:
   m_ObjectHideFlags: 0
@@ -11870,7 +12689,7 @@ GameObject:
   - component: {fileID: 1276794585}
   m_Layer: 6
   m_Name: Terrain_(-1000.0, 0.0, -2000.0)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -11948,6 +12767,10 @@ PrefabInstance:
     - target: {fileID: 150330, guid: d2b4c92a59cf1a441bf008ca26395efa, type: 3}
       propertyPath: m_Name
       value: Freeway Curve 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 150330, guid: d2b4c92a59cf1a441bf008ca26395efa, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 150330, guid: d2b4c92a59cf1a441bf008ca26395efa, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12085,6 +12908,10 @@ PrefabInstance:
       value: Freeway Straight 2 (92)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -12161,6 +12988,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12305,6 +13136,67 @@ Transform:
   m_Father: {fileID: 2131460162}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1331267840
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 767271949}
+    m_Modifications:
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Name
+      value: Point (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 223.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.323349
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -149.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
 --- !u!1 &1339375245
 GameObject:
   m_ObjectHideFlags: 0
@@ -12393,6 +13285,10 @@ PrefabInstance:
       value: Freeway Straight 2 (55)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -12469,6 +13365,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12549,6 +13449,10 @@ PrefabInstance:
       value: Freeway Straight 2 (14)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -12624,7 +13528,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8599312683912132661, guid: d589d91ee9d1c574d876b3c329f76c67, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8599312683912132661, guid: d589d91ee9d1c574d876b3c329f76c67, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12632,7 +13536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8599312683912132661, guid: d589d91ee9d1c574d876b3c329f76c67, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 221.53812
+      value: 222.14
       objectReference: {fileID: 0}
     - target: {fileID: 8599312683912132661, guid: d589d91ee9d1c574d876b3c329f76c67, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12672,6 +13576,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d589d91ee9d1c574d876b3c329f76c67, type: 3}
+--- !u!4 &1378970066 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+  m_PrefabInstance: {fileID: 708578593}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1381881161
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12744,6 +13653,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12822,6 +13735,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12954,7 +13871,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1432509430
 PrefabInstance:
@@ -12966,6 +13883,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13046,6 +13967,10 @@ PrefabInstance:
       value: Freeway Straight 2 (84)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -13122,6 +14047,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (104)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13274,6 +14203,10 @@ PrefabInstance:
       value: Highway Straight 2 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 143752, guid: 260ff3c3667b2bd4f82382b31d2ef823, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 143752, guid: 260ff3c3667b2bd4f82382b31d2ef823, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -13350,6 +14283,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13437,7 +14374,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2653919091114625835, guid: df41d282ba4f0834eb9e5106f9294687, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2653919091114625835, guid: df41d282ba4f0834eb9e5106f9294687, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13495,6 +14432,10 @@ PrefabInstance:
     - target: {fileID: 172256, guid: 25e5c01865542e449bf00fcc40da6a11, type: 3}
       propertyPath: m_Name
       value: Highway Bridge 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 172256, guid: 25e5c01865542e449bf00fcc40da6a11, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 172256, guid: 25e5c01865542e449bf00fcc40da6a11, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13568,6 +14509,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13648,6 +14593,10 @@ PrefabInstance:
       value: Freeway Straight 2 (49)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -13724,6 +14673,10 @@ PrefabInstance:
     - target: {fileID: 143752, guid: 260ff3c3667b2bd4f82382b31d2ef823, type: 3}
       propertyPath: m_Name
       value: Highway Straight 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 143752, guid: 260ff3c3667b2bd4f82382b31d2ef823, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 143752, guid: 260ff3c3667b2bd4f82382b31d2ef823, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13827,7 +14780,7 @@ Transform:
   - {fileID: 616040321}
   - {fileID: 269723636}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1505764969
 PrefabInstance:
@@ -13839,6 +14792,10 @@ PrefabInstance:
     - target: {fileID: 150330, guid: d2b4c92a59cf1a441bf008ca26395efa, type: 3}
       propertyPath: m_Name
       value: Freeway Curve 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 150330, guid: d2b4c92a59cf1a441bf008ca26395efa, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 150330, guid: d2b4c92a59cf1a441bf008ca26395efa, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13919,6 +14876,10 @@ PrefabInstance:
       value: Freeway Straight 2 (44)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -13995,6 +14956,10 @@ PrefabInstance:
     - target: {fileID: 150330, guid: d2b4c92a59cf1a441bf008ca26395efa, type: 3}
       propertyPath: m_Name
       value: Freeway Curve 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 150330, guid: d2b4c92a59cf1a441bf008ca26395efa, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 150330, guid: d2b4c92a59cf1a441bf008ca26395efa, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14075,6 +15040,10 @@ PrefabInstance:
       value: Freeway Straight 2 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -14153,6 +15122,10 @@ PrefabInstance:
       value: Freeway Straight 2 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -14229,6 +15202,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14399,6 +15376,10 @@ PrefabInstance:
       value: Freeway Straight 2 (48)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -14553,6 +15534,10 @@ PrefabInstance:
       value: Freeway Curve 2
       objectReference: {fileID: 0}
     - target: {fileID: 150330, guid: d2b4c92a59cf1a441bf008ca26395efa, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 150330, guid: d2b4c92a59cf1a441bf008ca26395efa, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -14629,6 +15614,10 @@ PrefabInstance:
     - target: {fileID: 182438, guid: 67b75b5f8253ef64c9aaab70b17ec06e, type: 3}
       propertyPath: m_Name
       value: Freeway Cross Freeway
+      objectReference: {fileID: 0}
+    - target: {fileID: 182438, guid: 67b75b5f8253ef64c9aaab70b17ec06e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 182438, guid: 67b75b5f8253ef64c9aaab70b17ec06e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14740,6 +15729,10 @@ PrefabInstance:
       value: Freeway Straight 2 (76)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -14805,6 +15798,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 494338, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
   m_PrefabInstance: {fileID: 1593602086}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1595704256 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+  m_PrefabInstance: {fileID: 1029343271}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1597042211
 PrefabInstance:
@@ -15121,6 +16119,10 @@ PrefabInstance:
       value: Freeway Straight 2 (60)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -15199,6 +16201,10 @@ PrefabInstance:
       value: Freeway Straight 2 (112)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -15275,6 +16281,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15431,6 +16441,10 @@ PrefabInstance:
       value: Freeway Straight 2 (64)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -15507,6 +16521,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15587,6 +16605,10 @@ PrefabInstance:
       value: Freeway Straight 2 (88)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -15653,6 +16675,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 494338, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
   m_PrefabInstance: {fileID: 1650256047}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1662610020
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 767271949}
+    m_Modifications:
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Name
+      value: Point
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 158.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.323349
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.3066406
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
 --- !u!1001 &1666069409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15663,6 +16746,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15743,6 +16830,10 @@ PrefabInstance:
       value: Freeway Straight 2 (63)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -15809,6 +16900,102 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 494338, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
   m_PrefabInstance: {fileID: 1668742292}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1679263901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1679263905}
+  - component: {fileID: 1679263904}
+  - component: {fileID: 1679263903}
+  - component: {fileID: 1679263902}
+  m_Layer: 0
+  m_Name: Waypoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 1
+  m_IsActive: 1
+--- !u!136 &1679263902
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679263901}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.5000001
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!23 &1679263903
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679263901}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7aa00db2639496c41b7d6feca7b0e1c4, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1679263904
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679263901}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1679263905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679263901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 3.87, z: 0.529}
+  m_LocalScale: {x: 1, y: 4, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1266973451}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1691896298
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15818,7 +17005,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5065305849088636893, guid: 773ee2e46e697fc49a09a2d4baee4a90, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5065305849088636893, guid: 773ee2e46e697fc49a09a2d4baee4a90, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15826,7 +17013,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5065305849088636893, guid: 773ee2e46e697fc49a09a2d4baee4a90, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 221.53812
+      value: 222.09
       objectReference: {fileID: 0}
     - target: {fileID: 5065305849088636893, guid: 773ee2e46e697fc49a09a2d4baee4a90, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15879,7 +17066,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8783306491909106419, guid: f02116c209ecd9e488fc4d2cd8996133, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8783306491909106419, guid: f02116c209ecd9e488fc4d2cd8996133, type: 3}
       propertyPath: m_LocalScale.x
@@ -15945,6 +17132,10 @@ PrefabInstance:
     - target: {fileID: 182438, guid: 67b75b5f8253ef64c9aaab70b17ec06e, type: 3}
       propertyPath: m_Name
       value: Freeway Cross Freeway
+      objectReference: {fileID: 0}
+    - target: {fileID: 182438, guid: 67b75b5f8253ef64c9aaab70b17ec06e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 182438, guid: 67b75b5f8253ef64c9aaab70b17ec06e, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16023,6 +17214,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16182,6 +17377,10 @@ PrefabInstance:
       value: Freeway Straight 2 (106)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -16260,6 +17459,10 @@ PrefabInstance:
       value: Freeway Straight 2 (83)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -16336,6 +17539,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16642,6 +17849,10 @@ PrefabInstance:
       value: Freeway Straight 2 (47)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -16718,6 +17929,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16960,7 +18175,7 @@ Transform:
   m_LocalScale: {x: 700, y: 1, z: 700}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1847231604
 GameObject:
@@ -17033,6 +18248,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17194,6 +18413,10 @@ PrefabInstance:
       value: Road Straight 2 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -17272,6 +18495,10 @@ PrefabInstance:
       value: Freeway Straight 2 (70)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -17338,6 +18565,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 494338, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
   m_PrefabInstance: {fileID: 1885681411}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1890395464
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 767271949}
+    m_Modifications:
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 1828068505731205749, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_Name
+      value: Point (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 532.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.323349
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -58.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335024725309186841, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b8a38907a83c5dc4990586610777f6b5, type: 3}
 --- !u!1 &1903093242
 GameObject:
   m_ObjectHideFlags: 0
@@ -17349,7 +18637,7 @@ GameObject:
   - component: {fileID: 1903093243}
   m_Layer: 0
   m_Name: Roads
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -17684,6 +18972,10 @@ PrefabInstance:
       value: Freeway Straight 2 (41)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -17760,6 +19052,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17877,6 +19173,10 @@ PrefabInstance:
       value: Freeway Straight 2 (21)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -17953,6 +19253,10 @@ PrefabInstance:
     - target: {fileID: 150330, guid: d2b4c92a59cf1a441bf008ca26395efa, type: 3}
       propertyPath: m_Name
       value: Freeway Curve 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 150330, guid: d2b4c92a59cf1a441bf008ca26395efa, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 150330, guid: d2b4c92a59cf1a441bf008ca26395efa, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18065,6 +19369,10 @@ PrefabInstance:
       value: Freeway Straight 2 (50)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -18141,6 +19449,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18221,6 +19533,10 @@ PrefabInstance:
       value: Freeway Straight 2 (18)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -18296,7 +19612,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5065305849088636893, guid: 773ee2e46e697fc49a09a2d4baee4a90, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5065305849088636893, guid: 773ee2e46e697fc49a09a2d4baee4a90, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18354,6 +19670,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18514,8 +19834,16 @@ PrefabInstance:
       value: Building_I_2_Prefab
       objectReference: {fileID: 0}
     - target: {fileID: 1448168269892838, guid: 1e198ff9400b5064c816d8f779eff296, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1448168269892838, guid: 1e198ff9400b5064c816d8f779eff296, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742306518264210, guid: 1e198ff9400b5064c816d8f779eff296, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1742306518264210, guid: 1e198ff9400b5064c816d8f779eff296, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18589,6 +19917,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18667,6 +19999,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18828,6 +20164,10 @@ PrefabInstance:
       value: Freeway Join Road (1)
       objectReference: {fileID: 0}
     - target: {fileID: 145004, guid: b74054c7819af8a458ae5a11853280ac, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 145004, guid: b74054c7819af8a458ae5a11853280ac, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -18904,6 +20244,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (105)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19057,6 +20401,10 @@ PrefabInstance:
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_Name
       value: Road Straight 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19218,6 +20566,10 @@ PrefabInstance:
       value: Freeway Straight 2 (46)
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967263
       objectReference: {fileID: 0}
@@ -19328,6 +20680,10 @@ PrefabInstance:
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_Name
       value: Freeway Straight 2 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 110814, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19529,7 +20885,7 @@ Transform:
   - {fileID: 49993452}
   - {fileID: 1384432097}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2131460161
 GameObject:
@@ -19596,6 +20952,10 @@ PrefabInstance:
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_Name
       value: Road Straight 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19752,7 +21112,7 @@ GameObject:
   - component: {fileID: 2145584982}
   m_Layer: 0
   m_Name: Spawner 2
-  m_TagString: Untagged
+  m_TagString: Spawner
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19771,9 +21131,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnPos: {x: -257.15308, y: 221.967, z: -3381.4604}
   spawnObject:
-  - {fileID: 7314980120870123081, guid: b8ececa08a20a70489aeaebf24f48403, type: 3}
   - {fileID: 2303298347797643452, guid: 063797ef8966f2e41939dfb0b54a37a8, type: 3}
-  newSpawnDuration: 4
+  - {fileID: 4789383196962472813, guid: 00b0f323bd747934e9d615dbc156eef4, type: 3}
+  - {fileID: 4041749468654053567, guid: f248c7e62991436409f54e8a17daf90a, type: 3}
+  - {fileID: 4168266839238166892, guid: f3ace1d1a491d994589ea083cc29eddd, type: 3}
   destPosition:
   - {fileID: 1218334423}
   - {fileID: 1457885079}
@@ -19811,7 +21172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5539294931148126004, guid: 8c98146bfa465c9449a11dcffc8857f8, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5539294931148126004, guid: 8c98146bfa465c9449a11dcffc8857f8, type: 3}
       propertyPath: m_AnchorMax.x

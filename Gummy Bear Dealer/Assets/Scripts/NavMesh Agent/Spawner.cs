@@ -6,9 +6,11 @@ public class Spawner : MonoBehaviour
 {
     [SerializeField] private Vector3 SpawnPos;
     [SerializeField] public GameObject[] spawnObject;
-    [SerializeField] public float newSpawnDuration = 120f;
     [SerializeField] public Transform[] destPosition;
-    int numberOfSpawned = 0;
+    private float rSpeedDuration;
+    private float min = 3f;
+    private float max = 10f;
+
 
     #region Singleton
     public static Spawner Instance;
@@ -26,28 +28,29 @@ public class Spawner : MonoBehaviour
         SpawnPos = transform.position;
         NewSpawnRequest();
     }
-    
+    public void Update()
+    {
+       rSpeedDuration = Random.Range(min, max);
+    }
     void SpawnNewObject()
     {
         int option = Random.Range(0, spawnObject.Length);
         Instantiate(spawnObject[option], SpawnPos, Quaternion.identity);
-        for (int i = 0; i < destPosition.Length; i++)
+        if(spawnObject[option].tag=="Car")
         {
-            spawnObject[option].GetComponent<AINavMesh>().points[i] = destPosition[i];
+            spawnObject[option].GetComponent<AINavMesh>().minSpeed = 20f;
+            spawnObject[option].GetComponent<AINavMesh>().maxSpeed = 45f;
+            spawnObject[option].GetComponent<AINavMesh>().minAcc = 7f;
+            spawnObject[option].GetComponent<AINavMesh>().maxAcc = 15f;
+            spawnObject[option].GetComponent<AINavMesh>().rangeFromPoint = 0.2f;
+            min = 25f;
+            max = 60f;
         }
         NewSpawnRequest();
     }
 
     public void NewSpawnRequest()
     {
-        if(numberOfSpawned==0)
-        {
-            Invoke("SpawnNewObject", 1f);
-            numberOfSpawned++;
-        }
-        else
-        {
-            Invoke("SpawnNewObject",newSpawnDuration);
-        }
+            Invoke("SpawnNewObject", rSpeedDuration);
     }
 }
