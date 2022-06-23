@@ -42,7 +42,7 @@ public class playerMovement : MonoBehaviour
 
         if(Input.GetKey(KeyCode.LeftShift))
         {
-            realSpeed = sprint;
+            
             Invoke("RemoveEndurance", 1);
         }
         else
@@ -67,15 +67,19 @@ public class playerMovement : MonoBehaviour
     }
     private void  RemoveEndurance()
     {
-        enduranceBar.GetComponent<Slider>().value -= 1;
-        if (enduranceBar.GetComponent<Slider>().value == 0)
+        if(enduranceBar.GetComponent<Slider>().value == 0)
         {
             realSpeed = speed;
+        }
+        else
+        {
+            realSpeed = sprint;
+            enduranceBar.GetComponent<Slider>().value -= 0.5f;
         }
     }
     private void AddEndurance()
     {
-        enduranceBar.GetComponent<Slider>().value += 1;
+        enduranceBar.GetComponent<Slider>().value += 0.25f;
     }
   
 }
