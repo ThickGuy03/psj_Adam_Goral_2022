@@ -15,7 +15,7 @@ public class AINavMesh : MonoBehaviour
     public float maxSpeed = 8f;
     public float minAcc = 1.5f;
     public float maxAcc = 3.5f;
-    public float rangeFromPoint = 1f;
+    public float rangeFromPoint = 2f;
 
 
     private void Awake()
@@ -52,7 +52,6 @@ public class AINavMesh : MonoBehaviour
         if (destPoints == points.Length)
         {
             Destroy(agent, 2f);
-            Debug.Log("destroyed");
             return;
         }
         if (points.Length == 0)

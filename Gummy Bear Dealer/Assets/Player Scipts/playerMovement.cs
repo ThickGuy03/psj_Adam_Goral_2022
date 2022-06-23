@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class playerMovement : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class playerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
     bool isGrounded;
+
+    public GameObject enduranceBar;
 
     public float jumpHeight = 3f;
     // Start is called before the first frame update
@@ -37,7 +40,17 @@ public class playerMovement : MonoBehaviour
 
         Vector3 move = transform.right * x + transform.forward * z;
 
-        realSpeed = Input.GetKey(KeyCode.LeftShift) ? sprint : speed;
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            realSpeed = sprint;
+            Invoke("RemoveEndurance", 1);
+        }
+        else
+        {
+            realSpeed = speed;
+            Invoke("AddEndurance", 2);
+        }
+     
         controller.Move(move*realSpeed*Time.deltaTime);
 
         if(Input.GetButtonDown("Jump")&&isGrounded)
@@ -52,4 +65,17 @@ public class playerMovement : MonoBehaviour
     {
         transform.Translate(realSpeed * Input.GetAxis("Horizontal") * Time.deltaTime, 0f, realSpeed * Input.GetAxis("Vertical") * Time.deltaTime);
     }
+    private void  RemoveEndurance()
+    {
+        enduranceBar.GetComponent<Slider>().value -= 1;
+        if (enduranceBar.GetComponent<Slider>().value == 0)
+        {
+            realSpeed = speed;
+        }
+    }
+    private void AddEndurance()
+    {
+        enduranceBar.GetComponent<Slider>().value += 1;
+    }
+  
 }

@@ -15,3 +15,4 @@ MonoBehaviour:
   prefab: {fileID: 6000638570359957898, guid: 5c94c0bb67dcb4b419ca2925b2c27b7b, type: 3}
   type: 2
   description: Legendary Gummy Bear
+  value: 65

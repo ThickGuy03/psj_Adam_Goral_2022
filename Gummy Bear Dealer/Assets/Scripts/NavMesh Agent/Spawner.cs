@@ -42,7 +42,7 @@ public class Spawner : MonoBehaviour
             spawnObject[option].GetComponent<AINavMesh>().maxSpeed = 45f;
             spawnObject[option].GetComponent<AINavMesh>().minAcc = 7f;
             spawnObject[option].GetComponent<AINavMesh>().maxAcc = 15f;
-            spawnObject[option].GetComponent<AINavMesh>().rangeFromPoint = 0.2f;
+            spawnObject[option].GetComponent<AINavMesh>().rangeFromPoint = 2f;
             min = 25f;
             max = 60f;
         }

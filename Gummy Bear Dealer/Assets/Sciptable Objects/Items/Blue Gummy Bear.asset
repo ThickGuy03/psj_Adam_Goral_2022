@@ -15,3 +15,4 @@ MonoBehaviour:
   prefab: {fileID: 1524462673266270353, guid: a102efe637f22bb42a9f87e3bbd3413f, type: 3}
   type: 2
   description: Rare Gummy Bear
+  value: 12

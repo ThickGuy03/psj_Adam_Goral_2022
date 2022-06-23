@@ -15,3 +15,4 @@ MonoBehaviour:
   prefab: {fileID: 4523647813051336899, guid: 1d41c1755bd787549ba02cb2567fe74b, type: 3}
   type: 2
   description: Common Gummy Bear
+  value: 5
